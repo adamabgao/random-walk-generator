@@ -56,8 +56,10 @@ RWGenerator(num_steps=50_000).scatter(dot_size=5, savefig=True)
   - `savefig (bool)`: If `True`, saves the graph as `rw_plot.png`. Default is `False`.
 
 # Example Output
+`RWGenerator(num_steps=15).scatter(dot_size=100_000, savefig= True)`
 ![image](https://github.com/user-attachments/assets/2b8f9a26-3ea0-4e14-a02e-6d43cb608e2c)
 
+`RWGenerator(num_steps=15).scatter(dot_size=200, savefig= True)`
 ![image](https://github.com/user-attachments/assets/b5216bb8-51d4-4c25-a82f-a5f488bdb9c9)
 
 ---
